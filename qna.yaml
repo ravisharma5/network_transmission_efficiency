@@ -1,15 +1,9 @@
 version: 2
 domain: wireless_communication
 created_by: Ravi Sharma
+task_description: "Teach the model to predict Transmit Power based on Channel Gain"
 seed_examples:
-  - context: |
-      In wireless communication, channel gain refers to the signal attenuation
-      between the transmitter and receiver. Transmit power is the amount of
-      power used by a transmitter to send signals over a wireless channel. In a
-      typical scenario, the transmitter adjusts the power output based on
-      channel gain to ensure adequate signal quality while minimizing
-      interference and conserving power.
-    questions_and_answers:
+  - questions_and_answers:
       - question: |
           What is channel gain in wireless communication?
         answer: |
@@ -26,28 +20,6 @@ seed_examples:
           When the channel gain is high, less transmit power is required to
           maintain signal quality. Conversely, when the channel gain is low,
           more transmit power is needed to overcome the signal loss.
-  - context: |
-      Here are sample input values of channel gain and corresponding transmit
-      power:
-
-      - If channel gain is [59.6, 73.2, 59.8, 63.6], then transmit power is
-      [100, 100].
-
-      - If channel gain is [71.0, 59.8, 61.9, 73.7], then transmit power is
-      [0, 100].
-
-      - If channel gain is [61.4, 65.8, 66.0, 66.9], then transmit power is
-      [100, 0].
-
-      - If channel gain is [62.3, 58.9, 72.8, 54.0], then transmit power is
-      [100, 100].
-
-      - If channel gain is [53.4, 51.3, 61.1, 68.9], then transmit power is
-      [100, 0].
-
-      - If channel gain is [74.1, 62.3, 64.0, 68.9], then transmit power is [0,
-      100].
-    questions_and_answers:
       - question: |
           What is the transmit power for channel gain values [59.6, 73.2, 59.8,
           63.6]?
@@ -78,63 +50,6 @@ seed_examples:
           68.9]?
         answer: |
           The transmit power is [0, 100].
-  - context: |
-      In an optimized communication system, various factors like interference
-      and noise level influence transmit power adjustment. The transmitter aims
-      to minimize power consumption while maintaining signal quality by
-      dynamically adjusting power levels based on channel conditions.
-    questions_and_answers:
-      - question: |
-          How does interference affect transmit power?
-        answer: |
-          Higher interference requires the transmitter to increase its power
-          output to maintain signal quality.
-      - question: |
-          What other factors, besides channel gain, affect transmit power?
-        answer: |
-          Noise level and interference are additional factors that affect the
-          required transmit power.
-  - context: |
-      In modern wireless communication systems, advanced techniques such as 
-      adaptive modulation and coding (AMC) are used. AMC adjusts both the 
-      modulation scheme and the coding rate based on the current channel 
-      conditions to maximize the data transmission rate while keeping the error
-      rate at an acceptable level.
-    questions_and_answers:
-      - question: |
-          What is adaptive modulation and coding (AMC)?
-        answer: |
-          Adaptive modulation and coding (AMC) is a technique that adjusts the
-          modulation scheme and coding rate based on the channel conditions to
-          optimize data transmission rates.
-      - question: |
-          How does AMC contribute to power efficiency?
-        answer: |
-          By adapting the modulation and coding rate according to channel 
-          quality, AMC reduces unnecessary power usage while maintaining data
-          throughput and reliability.
-  - context: |
-      Massive MIMO (Multiple-Input Multiple-Output) is a key technology in 5G
-      and beyond wireless systems. It involves using large numbers of antennas
-      at the base station to serve multiple users simultaneously, improving
-      capacity, spectral efficiency, and energy efficiency.
-    questions_and_answers:
-      - question: |
-          What is Massive MIMO in wireless communication?
-        answer: |
-          Massive MIMO is a technology that uses a large number of antennas at
-          the base station to serve multiple users at the same time, enhancing
-          capacity, spectral efficiency, and energy efficiency.
-      - question: |
-          How does Massive MIMO improve spectral efficiency?
-        answer: |
-          By simultaneously transmitting data to multiple users over the same
-          frequency band, Massive MIMO significantly increases the amount of
-          data transmitted per unit of bandwidth.
-document_outline: |
-  Predicting transmit power based on channel gain in wireless communication.
-  Data includes channel gain samples and their corresponding transmit power
-  values.
 document:
   repo: https://github.com/ravisharma5/network_transmission_efficiency.git
   commit: your_commit_hash
