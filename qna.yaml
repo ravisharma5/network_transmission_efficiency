@@ -98,38 +98,38 @@ seed_examples:
       In modern wireless communication systems, advanced techniques such as 
       adaptive modulation and coding (AMC) are used. AMC adjusts both the 
       modulation scheme and the coding rate based on the current channel 
-      conditions to maximize the data transmission rate while keeping the  error
+      conditions to maximize the data transmission rate while keeping the error
       rate at an acceptable level.
     questions_and_answers:
       - question: |
           What is adaptive modulation and coding (AMC)?
         answer: >
-          Adaptive modulation and coding (AMC) is a technique that adjusts  the
-          modulation scheme and coding rate based on the channel conditions  to
+          Adaptive modulation and coding (AMC) is a technique that adjusts the
+          modulation scheme and coding rate based on the channel conditions to
           optimize data transmission rates.
       - question: |
           How does AMC contribute to power efficiency?
         answer: >
           By adapting the modulation and coding rate according to channel 
-          quality, AMC reduces unnecessary power usage while maintaining  data
+          quality, AMC reduces unnecessary power usage while maintaining data
           throughput and reliability.
   - context: >
-      Massive MIMO (Multiple-Input Multiple-Output) is a key technology in  5G
-      and beyond wireless systems. It involves using large numbers of  antennas
-      at the base station to serve multiple users simultaneously,  improving
+      Massive MIMO (Multiple-Input Multiple-Output) is a key technology in 5G
+      and beyond wireless systems. It involves using large numbers of antennas
+      at the base station to serve multiple users simultaneously, improving
       capacity, spectral efficiency, and energy efficiency.
     questions_and_answers:
       - question: |
           What is Massive MIMO in wireless communication?
         answer: >
-          Massive MIMO is a technology that uses a large number of antennas  at
-          the base station to serve multiple users at the same time,  enhancing
+          Massive MIMO is a technology that uses a large number of antennas at
+          the base station to serve multiple users at the same time, enhancing
           capacity, spectral efficiency, and energy efficiency.
       - question: |
           How does Massive MIMO improve spectral efficiency?
         answer: >
-          By simultaneously transmitting data to multiple users over the  same
-          frequency band, Massive MIMO significantly increases the  amount of
+          By simultaneously transmitting data to multiple users over the same
+          frequency band, Massive MIMO significantly increases the amount of
           data transmitted per unit of bandwidth.
 document_outline: >
   Predicting transmit power based on channel gain in wireless communication.
