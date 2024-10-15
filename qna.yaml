@@ -74,9 +74,9 @@ seed_examples:
           The transmitter monitors channel conditions and adjusts power output
           in real time to maintain optimal communication while conserving power.
   - context: |
-      In modern wireless communication systems, advanced techniques such as 
-      adaptive modulation and coding (AMC) are used. AMC adjusts both the 
-      modulation scheme and the coding rate based on the current channel 
+      In modern wireless communication systems, advanced techniques such as
+      adaptive modulation and coding (AMC) are used. AMC adjusts both the
+      modulation scheme and the coding rate based on the current channel
       conditions to maximize the data transmission rate while keeping the error
       rate at an acceptable level.
     questions_and_answers:
@@ -89,13 +89,13 @@ seed_examples:
       - question: |
           How does AMC contribute to power efficiency?
         answer: |
-          By adapting the modulation and coding rate according to channel 
+          By adapting the modulation and coding rate according to channel
           quality, AMC reduces unnecessary power usage while maintaining data
           throughput and reliability.
       - question: |
           How does AMC affect data transmission rates?
         answer: |
-          AMC allows the system to dynamically switch between modulation and 
+          AMC allows the system to dynamically switch between modulation and
           coding schemes to maintain high data rates under varying channel
           conditions.
   - context: |
@@ -119,8 +119,8 @@ seed_examples:
       - question: |
           How does Massive MIMO improve energy efficiency?
         answer: |
-          By directing the transmission power precisely to intended users, 
-          Massive MIMO reduces power waste and improves overall energy 
+          By directing the transmission power precisely to intended users,
+          Massive MIMO reduces power waste and improves overall energy
           efficiency.
 document_outline: |
   Predicting transmit power based on channel gain in wireless communication.
