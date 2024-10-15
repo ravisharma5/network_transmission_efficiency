@@ -131,6 +131,7 @@ seed_examples:
           By simultaneously transmitting data to multiple users over the same
           frequency band, Massive MIMO significantly increases the amount of
           data transmitted per unit of bandwidth.
+          Noise level and interference are additional factors that affect the required transmit power.
 document_outline: |
   Predicting transmit power based on channel gain in wireless communication.
   Data includes channel gain samples and their corresponding transmit power
