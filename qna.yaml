@@ -51,6 +51,6 @@ seed_examples:
       The transmit power is [0, 100].
 document:
   repo: https://github.com/ravisharma5/network_transmission_efficiency.git
-  commit: your_commit_hash
+  commit: a26ac891cb5bc5dc2462950d6fb98a8c310ff79f
   patterns:
     - data.md
