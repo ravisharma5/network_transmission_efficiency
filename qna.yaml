@@ -127,7 +127,7 @@ document_outline: |
   Data includes channel gain samples and their corresponding transmit power
   values.
 document:
-  repo: https://github.com/ravisharma5/network_transmission_efficiency.git
-  commit: 1edaec7e6c6627145b1b73032f3baf74952f1ff2
+  repo: "https://github.com/ravisharma5/network_transmission_efficiency.git"
+  commit: 76c0adf140a4c366e47271f1c6cd1abdd31d846c
   patterns:
     - data.md
