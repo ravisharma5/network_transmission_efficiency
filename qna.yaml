@@ -1,0 +1,71 @@
+version: 3
+domain: wireless_communication
+created_by: Ravi Sharma
+seed_examples:
+  - context: |
+      In wireless communication, channel gain refers to the signal attenuation between the transmitter and receiver. Transmit power is the amount of power used by a transmitter to send signals over a wireless channel. In a typical scenario, the transmitter adjusts the power output based on channel gain to ensure adequate signal quality while minimizing interference and conserving power.
+    questions_and_answers:
+      - question: |
+          What is channel gain in wireless communication?
+        answer: |
+          Channel gain refers to the signal attenuation between the transmitter and receiver.
+      - question: |
+          What is transmit power in wireless communication?
+        answer: |
+          Transmit power is the amount of power used by a transmitter to send signals over a wireless channel.
+      - question: |
+          How does channel gain affect transmit power?
+        answer: |
+          When the channel gain is high, less transmit power is required to maintain signal quality. Conversely, when the channel gain is low, more transmit power is needed to overcome the signal loss.
+  - context: |
+      Here are sample input values of channel gain and corresponding transmit power:
+      - If channel gain is [59.6, 73.2, 59.8, 63.6], then transmit power is [100, 100].
+      - If channel gain is [71.0, 59.8, 61.9, 73.7], then transmit power is [0, 100].
+      - If channel gain is [61.4, 65.8, 66.0, 66.9], then transmit power is [100, 0].
+      - If channel gain is [62.3, 58.9, 72.8, 54.0], then transmit power is [100, 100].
+      - If channel gain is [53.4, 51.3, 61.1, 68.9], then transmit power is [100, 0].
+      - If channel gain is [74.1, 62.3, 64.0, 68.9], then transmit power is [0, 100].
+    questions_and_answers:
+      - question: |
+          What is the transmit power for channel gain values [59.6, 73.2, 59.8, 63.6]?
+        answer: |
+          The transmit power is [100, 100].
+      - question: |
+          What is the transmit power for channel gain values [71.0, 59.8, 61.9, 73.7]?
+        answer: |
+          The transmit power is [0, 100].
+      - question: |
+          What is the transmit power for channel gain values [61.4, 65.8, 66.0, 66.9]?
+        answer: |
+          The transmit power is [100, 0].
+      - question: |
+          What is the transmit power for channel gain values [53.4, 51.3, 61.1, 68.9]?
+        answer: |
+          The transmit power is [100, 0].
+      - question: |
+          What is the transmit power for channel gain values [62.3, 58.9, 72.8, 54.0]?
+        answer: |
+          The transmit power is [100, 100].
+      - question: |
+          What is the transmit power for channel gain values [74.1, 62.3, 64.0, 68.9]?
+        answer: |
+          The transmit power is [0, 100].
+  - context: |
+      In an optimized communication system, various factors like interference and noise level influence transmit power adjustment. The transmitter aims to minimize power consumption while maintaining signal quality by dynamically adjusting power levels based on channel conditions.
+    questions_and_answers:
+      - question: |
+          How does interference affect transmit power?
+        answer: |
+          Higher interference requires the transmitter to increase its power output to maintain signal quality.
+      - question: |
+          What other factors, besides channel gain, affect transmit power?
+        answer: |
+          Noise level and interference are additional factors that affect the required transmit power.
+
+document_outline: |
+  Predicting transmit power based on channel gain in wireless communication. Data includes channel gain samples and their corresponding transmit power values.
+document:
+  repo: https://github.com/ravisharma5/wnetwork_transmission_efficiency.git
+  commit: your_commit_hash
+  patterns:
+    - data.md
